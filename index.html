@@ -238,7 +238,7 @@
       }).use(window.markdownitTaskLists, {enabled: true});
 
       function renderChecklist() {
-        $.ajax('/checklist.md', {
+        $.ajax('/python-api-checklist/checklist.md', {
           method: 'GET',
           dataType: 'text'
         }).done(function (text) {
