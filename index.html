@@ -31,7 +31,6 @@
   <style type="text/css">
     body {
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      background-color: #eee;
       padding-top: 0px;
       font-size: 18px;
       line-height: 1.42857143;
@@ -90,11 +89,11 @@
 
     footer {
       margin-top: 4rem;
-      background: #646464;
+      background: #34495e;
     }
 
     footer a {
-      color: #ff9800;
+      color: #16a085;
     }
 
     footer p {
@@ -105,7 +104,11 @@
     }
 
     h1, h2, p {
-      color: #356f9f;
+      color: #2980b9;
+    }
+
+    .checklist-content p {
+      color: #333;
     }
 
     li {
@@ -113,14 +116,14 @@
       margin-bottom: 2rem;
     }
 
-    p {
-      font-size: 25px;
-    }
-
     a {
-      color: #ca6509;
+      color: #16a085;
       text-decoration: underline;
       cursor: pointer;
+    }
+
+    a code {
+        text-decoration: underline;
     }
 
     h1 {
@@ -131,14 +134,14 @@
 
     h2 {
       font-size: 30px;
-      border-bottom: 4px solid #356f9f;
-      padding-bottom: 0;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 20px;
       margin-bottom: 3rem;
       margin-top: 4rem;
     }
 
     ul li ul li {
-      background-color: rgba(0, 0, 0, 0.10);
+      background-color: #ecf0f1;
       padding: 2rem 3rem;
       margin-top: 2rem;
     }
@@ -153,7 +156,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XC946B"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <a href="https://github.com/vintasoftware/python-api-checklist/"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1000;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+    <a href="https://github.com/mingrammer/python-api-checklist/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
     <main role="main">
       <div class="container">
         <section class="checklist col-xs-12">
@@ -163,11 +166,10 @@
           <div class="row">
             <div class="description col-md-offset-1 col-md-10">
               <h1>
-                Checklist for<br/>
-                Python libraries APIs
+                Python 라이브러리와 API를 위한 체크리스트
               </h1>
-              <p>Useful checklist for build good Python libraries APIs. Based on "<a href="https://www.youtube.com/watch?v=4mkFfce46zE" target="_blank">How to make a good library API</a>" PyCon 2017 talk.</p>
-              <p>Checkboxes below are saved in localStorage. You can mark what you have and come back later.</p>
+              <p>PyCon 2017 세션 "<a href="https://www.youtube.com/watch?v=4mkFfce46zE" target="_blank">좋은 라이브러리와 API 만드는 방법</a>"에 기반한 좋은 Python 라이브러리와 API를 만들기 위한 유용한 체크리스트 모음입니다.</p>
+              <p>아래 체크박스는 로컬스토리지(localStorage)에 저장되므로 체크박스를 마킹해둘 수 있으며 페이지 재방문시 체크박스가 복구됩니다.</p>
             </div>
           </div>
           <div class="row">
@@ -183,7 +185,7 @@
     <footer>
       <div class="container">
         <div class="col-xs-12">
-          <p>© 2017 - Maintained by <a href="https://www.vinta.com.br" target="_blank">Vinta Sofware</a> - Feel free to <a href="https://github.com/vintasoftware/python-api-checklist" target="_blank">contribute</a></p>
+          <p>© 2017 - Maintained by <a href="https://mingrammer.com" target="_blank">mingrammer</a> - <a href="https://github.com/mingrammer/python-api-checklist" target="_blank">기여</a>는 자유롭게 해주세요</p>
         </div>
       </div>
 

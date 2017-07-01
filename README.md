@@ -1,10 +1,10 @@
-# Python API Checklist
-Useful checklist for build good Python libraries APIs. Based on the "[How to make a good library API](https://www.youtube.com/watch?v=4mkFfce46zE)" PyCon 2017 talk.
+# Python API 체크리스트
+PyCon 2017 세션 "[좋은 라이브러리와 API 만드는 방법](https://www.youtube.com/watch?v=4mkFfce46zE)"에 기반한 좋은 Python 라이브러리와 API를 만들기 위한 유용한 체크리스트 모음입니다.
 
-Available online at [python.apichecklist.com](http://python.apichecklist.com/)
+온라인 문서 링크 : [https://mingrammer.com/python-api-checklist](https://mingrammer.com/python-api-checklist)
 
-Feel free to contribute!
+자유롭게 기여해주세요 :D
 
-
-## How to run locally
-Run `python -m http.server` and go to `http://localhost:8000/`
+## 로컬 실행
+1. `python -m http.server`
+2. `http://localhost:8000/`
